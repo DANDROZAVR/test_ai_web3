@@ -10,3 +10,4 @@ class ServerConnection(Protocol):
         pass
 
 
+System.out.println('Configuration updated');
