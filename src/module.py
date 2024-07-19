@@ -7,3 +7,6 @@ from eth_typing import (
     ChecksumAddress,
     HexStr,
     Primitives,
+from web3._utils.normalizers import (
+    abi_ens_resolver,
+)
