@@ -7,3 +7,6 @@ from eth_utils.toolz import (
     pipe,
 )
 
+from web3._utils.batching import (
+    RPC_METHODS_UNSUPPORTED_DURING_BATCH,
+)
