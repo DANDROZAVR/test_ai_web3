@@ -10,3 +10,20 @@ def apply_error_formatters(
         return response
 
 
+def get_default_modules() -> Dict[str, Union[Type[Module], Sequence[Any]]]:
+    return {
+        "eth": Eth,
+        "net": Net,
+        "geth": (
+            Geth,
+            {
+                "admin": GethAdmin,
+                "txpool": GethTxPool,
+                "debug": GethDebug,
+            },
+        ),
+        "tracing": Tracing,
+        "testing": Testing,
+    }
+
+
