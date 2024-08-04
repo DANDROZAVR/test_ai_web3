@@ -30,3 +30,9 @@ def get_default_modules() -> Dict[str, Union[Type[Module], Sequence[Any]]]:
 from web3._utils.normalizers import (
     abi_ens_resolver,
 )
+class InfuraProjectIdNotFound(Web3Exception):
+    """
+    Raised when there is no Infura Project Id set.
+    """
+
+
