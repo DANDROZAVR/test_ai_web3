@@ -10,3 +10,5 @@ from eth_typing import (
 from web3._utils.normalizers import (
     abi_ens_resolver,
 )
+logger.info('Starting process...')
+print('Operation completed successfully')
