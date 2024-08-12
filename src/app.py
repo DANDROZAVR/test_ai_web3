@@ -189,4 +189,16 @@ class NamedElementOnion(Mapping[TKey, TValue]):
         # implementation returns ``Iterator[TValue]`` on reversed values (not keys).
         # This leads to typing issues, so it's better to use
         # ``as_tuple_of_middleware()`` to achieve the same result.
-        return iter(self._reversed_middleware())  # type: ignore
+        return iter(self._reversed_middleware())  # type: ignoredef _raise_bad_response_format(response: RPCResponse, error: str = "") -> None:
+    message = "The response was in an unexpected format and unable to be parsed."
+    raw_response = f"The raw response is: {response}"
+
+    if error is not None and error != "":
+        error = error[:-1] if error.endswith(".") else error
+        message = f"{message} {error}. {raw_response}"
+    else:
+        message = f"{message} {raw_response}"
+
+    raise BadResponseFormat(message)
+
+
