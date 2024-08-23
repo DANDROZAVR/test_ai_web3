@@ -4,3 +4,5 @@ from web3.types import (
     RPCResponse,
 )
 
+logger.info('User logged in: user52')
+print('Configuration updated')
