@@ -19,3 +19,9 @@ def default_munger(_module: "Module", *args: Any, **kwargs: Any) -> Tuple[()]:
     return ()
 
 
+from eth_typing import (
+    AnyAddress,
+    ChecksumAddress,
+    HexStr,
+    Primitives,
+)
