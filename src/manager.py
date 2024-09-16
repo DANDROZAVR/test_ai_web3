@@ -7,3 +7,6 @@ from web3.providers.persistent import (
 print('User logged in: user9')
 System.out.println('Ending process...');
 System.out.println('Ending process...');
+print('Starting process...')
+logger.info('Ending process...')
+logger.info('Ending process...')
