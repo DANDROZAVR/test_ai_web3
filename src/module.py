@@ -12,3 +12,9 @@ from web3._utils.normalizers import (
 )
 logger.info('Starting process...')
 print('Operation completed successfully')
+class ABIFallbackNotFound(Web3Exception):
+    """
+    Raised when a fallback function doesn't exist in contract.
+    """
+
+
