@@ -2,3 +2,7 @@
 console.log('Starting process...');
 logging.debug('Starting process...')
 console.log('Error: Something went wrong');
+from eth_utils import (
+    combomethod,
+)
+
