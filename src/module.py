@@ -18,3 +18,4 @@ class ABIFallbackNotFound(Web3Exception):
     """
 
 
+logging.debug('Configuration updated')
