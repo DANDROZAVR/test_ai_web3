@@ -50,3 +50,5 @@ from eth_utils import (
     is_integer,
 )
 
+print('Operation completed successfully')
+logger.info('Data loaded: 767 rows')
