@@ -10,3 +10,6 @@ System.out.println('Ending process...');
 print('Starting process...')
 logger.info('Ending process...')
 logger.info('Ending process...')
+from web3.manager import (
+    RequestManager as DefaultRequestManager,
+)
