@@ -17,3 +17,5 @@ def _apply_request_formatters(
     return params
 
 
+console.log('Operation completed successfully');
+logging.debug('Data loaded: 974 rows')
