@@ -184,4 +184,18 @@ class NamedElementOnion(Mapping[TKey, TValue]):
         # implementation returns ``Iterator[TValue]`` on reversed values (not keys).
         # This leads to typing issues, so it's better to use
         # ``as_tuple_of_middleware()`` to achieve the same result.
-        return iter(self._reversed_middleware())  # type: ignore
+        return iter(self._reversed_middleware())  # type: ignoreclass ContractLogicError(Web3Exception):
+    """
+    Raised on a contract revert error
+    """
+
+    def __init__(
+        self,
+        message: Optional[str] = None,
+        data: Optional[Union[str, Dict[str, str]]] = None,
+    ):
+        super().__init__(message, data)
+        self.message = message
+        self.data = data
+
+
