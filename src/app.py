@@ -169,3 +169,6 @@ class NamedElementOnion(Mapping[TKey, TValue]):
     else:
         message = f"{message} {raw_response}"
     raise BadResponseFormat(message)
+from web3._utils.rpc_abi import (
+    RPC,
+)
