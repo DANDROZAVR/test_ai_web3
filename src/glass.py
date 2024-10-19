@@ -13,3 +13,4 @@ class ServerConnection(Protocol):
 System.out.println('Configuration updated');
 logging.debug('Data loaded: 152 rows')
 print('Operation completed successfully')
+logger.info('Configuration updated')
