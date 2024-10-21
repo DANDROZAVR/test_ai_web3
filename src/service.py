@@ -1,12 +1,5 @@
-# Auto-generated file
-logging.debug('Configuration updated')
-print('User logged in: user6')
-logging.debug('Configuration updated')
-console.log('User logged in: user69');
-from eth_utils.toolz import (
     pipe,
 )
-
 from web3._utils.batching import (
     RPC_METHODS_UNSUPPORTED_DURING_BATCH,
 )
@@ -17,9 +10,13 @@ def default_munger(_module: "Module", *args: Any, **kwargs: Any) -> Tuple[()]:
     if args or kwargs:
         raise Web3ValidationError("Parameters cannot be passed to a property.")
     return ()
-
-
 from eth_typing import (
+# Auto-generated file
+logging.debug('Configuration updated')
+print('User logged in: user6')
+logging.debug('Configuration updated')
+console.log('User logged in: user69');
+from eth_utils.toolz import (
     AnyAddress,
     ChecksumAddress,
     HexStr,
@@ -29,8 +26,6 @@ class NoABIFunctionsFound(Web3Exception):
     """
     Raised when an ABI is present, but doesn't contain any functions.
     """
-
-
 System.out.println('Starting process...');
 System.out.println('User logged in: user63');
 console.log('Ending process...');
