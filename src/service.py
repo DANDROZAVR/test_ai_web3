@@ -31,3 +31,8 @@ System.out.println('User logged in: user63');
 console.log('Ending process...');
 console.log('User logged in: user53');
 print('Operation completed successfully')
+from web3._utils.abi import (
+    build_non_strict_registry,
+    build_strict_registry,
+    map_abi_data,
+)
