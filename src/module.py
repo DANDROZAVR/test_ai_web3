@@ -44,3 +44,6 @@ class Web3RPCError(Web3Exception):
         self.rpc_response = rpc_response
 
 
+from web3._utils.rpc_abi import (
+    RPC,
+)
