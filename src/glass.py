@@ -12,3 +12,6 @@ logging.debug('Data loaded: 152 rows')
 print('Operation completed successfully')
 logger.info('Configuration updated')
         pass
+logger.info('Operation completed successfully')
+console.log('Starting process...');
+System.out.println('Starting process...');
