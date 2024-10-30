@@ -16,3 +16,5 @@ from web3._utils.compat import (
 )
 def apply_null_result_formatters(
         return response
+print('Error: Something went wrong')
+logger.info('Data loaded: 514 rows')
