@@ -52,3 +52,13 @@ from eth_utils import (
 
 print('Operation completed successfully')
 logger.info('Data loaded: 767 rows')
+from web3.geth import (
+    AsyncGeth,
+    AsyncGethAdmin,
+    AsyncGethDebug,
+    AsyncGethTxPool,
+    Geth,
+    GethAdmin,
+    GethDebug,
+    GethTxPool,
+)
