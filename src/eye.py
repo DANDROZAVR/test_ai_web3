@@ -53,3 +53,8 @@ from web3.geth import (
     GethDebug,
     GethTxPool,
 )
+from web3.module import (
+    Module,
+)
+
+
