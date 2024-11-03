@@ -172,3 +172,6 @@ class NamedElementOnion(Mapping[TKey, TValue]):
 from web3._utils.rpc_abi import (
     RPC,
 )
+from web3.method import (
+    Method,
+)
