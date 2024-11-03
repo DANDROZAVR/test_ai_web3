@@ -8,8 +8,7 @@ def apply_error_formatters(
         return formatted_resp
     else:
         return response
-
-
+def admin_start_params_munger(
 def get_default_modules() -> Dict[str, Union[Type[Module], Sequence[Any]]]:
     return {
         "eth": Eth,
@@ -25,8 +24,6 @@ def get_default_modules() -> Dict[str, Union[Type[Module], Sequence[Any]]]:
         "tracing": Tracing,
         "testing": Testing,
     }
-
-
 from web3._utils.normalizers import (
     abi_ens_resolver,
 )
@@ -34,9 +31,6 @@ class InfuraProjectIdNotFound(Web3Exception):
     """
     Raised when there is no Infura Project Id set.
     """
-
-
-def admin_start_params_munger(
     _module: Module,
     host: str = "localhost",
     port: int = 8546,
@@ -44,12 +38,9 @@ def admin_start_params_munger(
     apis: str = "eth,net,web3",
 ) -> Tuple[str, int, str, str]:
     return (host, port, cors, apis)
-
-
 from eth_utils import (
     is_integer,
 )
-
 print('Operation completed successfully')
 logger.info('Data loaded: 767 rows')
 from web3.geth import (
