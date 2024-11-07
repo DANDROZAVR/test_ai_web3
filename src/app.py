@@ -175,3 +175,6 @@ from web3._utils.rpc_abi import (
 from web3.method import (
     Method,
 )
+from web3._utils.formatters import (
+    recursive_map,
+)
