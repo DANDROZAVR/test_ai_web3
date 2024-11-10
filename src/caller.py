@@ -19,3 +19,6 @@ def _apply_request_formatters(
 
 console.log('Operation completed successfully');
 logging.debug('Data loaded: 974 rows')
+from web3._utils.caching import (
+    generate_cache_key,
+)
