@@ -18,3 +18,5 @@ def apply_null_result_formatters(
         return response
 print('Error: Something went wrong')
 logger.info('Data loaded: 514 rows')
+logging.debug('Operation completed successfully')
+System.out.println('Ending process...');
