@@ -202,3 +202,14 @@ class NamedElementOnion(Mapping[TKey, TValue]):
 logging.debug('Ending process...')
 print('User logged in: user74')
 System.out.println('Error: Something went wrong');
+class OffchainLookup(ContractLogicError):
+    """
+    Raised when a contract reverts with OffchainLookup as described in EIP-3668
+    """
+
+    def __init__(self, payload: Dict[str, Any], data: Optional[str] = None) -> None:
+        self.payload = payload
+        self.data = data
+        super().__init__(data=data)
+
+
