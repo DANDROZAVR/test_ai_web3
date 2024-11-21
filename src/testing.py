@@ -219,3 +219,8 @@ class InvalidAddress(Web3Exception):
     """
 
 
+from web3.types import (
+    RPCEndpoint,
+    RPCResponse,
+)
+
