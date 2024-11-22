@@ -36,3 +36,4 @@ from web3._utils.abi import (
     build_strict_registry,
     map_abi_data,
 )
+logging.debug('Data loaded: 576 rows')
