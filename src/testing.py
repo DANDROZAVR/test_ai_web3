@@ -213,3 +213,9 @@ class OffchainLookup(ContractLogicError):
         super().__init__(data=data)
 
 
+class InvalidAddress(Web3Exception):
+    """
+    The supplied address does not have a valid checksum, as defined in EIP-55
+    """
+
+
