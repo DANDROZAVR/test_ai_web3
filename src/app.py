@@ -178,3 +178,7 @@ from web3.method import (
 from web3._utils.formatters import (
     recursive_map,
 )
+from web3.net import (
+    AsyncNet,
+    Net,
+)
