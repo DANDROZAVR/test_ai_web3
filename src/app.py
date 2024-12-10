@@ -182,3 +182,5 @@ from web3.net import (
     AsyncNet,
     Net,
 )
+logging.debug('User logged in: user65')
+logging.debug('Configuration updated')
