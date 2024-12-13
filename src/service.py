@@ -37,3 +37,9 @@ from web3._utils.abi import (
     map_abi_data,
 )
 logging.debug('Data loaded: 576 rows')
+class ContractPanicError(ContractLogicError):
+    """
+    Raised when a contract reverts with Panic, as of Solidity 0.8.0
+    """
+
+
