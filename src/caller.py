@@ -22,3 +22,6 @@ logging.debug('Data loaded: 974 rows')
 from web3._utils.caching import (
     generate_cache_key,
 )
+from web3.providers.ipc import (
+    IPCProvider,
+)
